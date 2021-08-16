@@ -1,0 +1,94 @@
+.container1{
+    padding:75px;
+    padding-top: 0px;
+    display:flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    height: 760px;
+    width: 1450px;
+    border-top: 3px solid;
+}
+.bar{
+    border: 1px solid;
+}
+.buttonplay {
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 24px;
+  
+    border-color: transparent transparent transparent #202020;
+    transition: 100ms all ease;
+    cursor: pointer;
+  
+    border-style: solid;
+    border-width: 12px 0 12px 20px;
+
+
+}
+.buttonplay:hover {
+    border-color: transparent transparent transparent #404040;
+}
+.buttonpaused {
+    border: 0;
+    background: transparent;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 0;
+    height: 24px;
+  
+    border-color: transparent transparent transparent #202020;
+    transition: 100ms all ease;
+    cursor: pointer;
+
+    border-style: double;
+    border-width: 0px 0 0px 20px;
+  }
+  .buttonpaused:hover {
+    border-color: transparent transparent transparent #404040;
+}
+
+
+span{
+    font-size: 30px;
+    color: black;
+    background-color:white;
+    border:solid 1px black;
+    margin: 0px;
+}
+.controller{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+
+.middleBtn{
+    margin-top: 14px;
+}
+
+.oneStepBtn{
+    font-size: 35px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 2px;
+}
+
+
+.controllBtns,.controllBtns:link,.controllBtns:visited,.controllBtns:hover,.controllBtns:active {
+    text-decoration: none;
+  }
+
+.mainbtn{
+    border: solid 1px;
+    background-color:white;
+    padding-left: 15px;
+}
+
+.ends{
+    font-size: 35px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom: 2px;
+}
